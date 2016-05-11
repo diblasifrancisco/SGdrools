@@ -1,0 +1,86 @@
+package com.sample
+ 
+import com.sample.*;
+ 
+//reglas caso emergencia
+rule "Mensaje codigo rojo y creación de despacho"
+	salience 15
+	when
+	 recepcion: recepcion();
+	 codigo : Codigo (recepcion.getCodigo()=="RJO");
+	 then
+	 System.out.println("Código rojo Emergencia con riesgo de vida inminente.");
+	 recepcion.setDespacho(new Despacho());
+end
+
+rule "Mensaje codigo amarillo y creación de despacho"
+	salience 10
+	when
+	 recepcion: Recepcion();
+	 codigo : Codigo (recepcion.getCodigo()=="AMA");
+	 then
+	 System.out.println("Código rojo : Urgencia. No hay riesgo de vida inminente, pero el paciente debe ser atendido en un lapso razonable de tiempo.");
+	 recepcion.setDespacho(new Despacho());	
+end
+
+rule "Cambiar estado movil asignado"
+ salience 20
+ when 
+ despacho: Despacho(); 
+ then
+ despacho.movil.setEstado("Asignado");
+end
+
+
+ 
+// Sumamos el importe total de los productos
+rule "Initial rule"
+	salience 20
+    when
+        order : Order ();
+        totalPrice : Double() from accumulate (
+        	Product( productPrice : price) from order.getProducts, 
+        	init (double total = 0;), 
+        	action (total += productPrice;), 
+        	result (new Double(total))
+        ); 
+    then 
+    	System.out.println("Regla Initial rule");
+    	order.setTotalPrice(totalPrice);
+    	
+end
+
+// Comprobamos si el cliente es SILVER, si es así aplicamos un 5% de descuento
+rule "SILVER customer rule"
+	salience 15
+	when
+        order : Order ();
+        customer : Customer ( status == Customer.SILVER_CUSTOMER) from order.getCustomer(); 
+    then
+        System.out.println("SILVER customer rule");
+        order.setTotalPrice(order.getTotalPrice() * (1 - (5 / 100d) ) );
+end
+
+// Comprobamos si el cliente es GOLD, si es así aplicamos un 10% de descuento
+rule "GOLD customer rule"
+	salience 15
+	when
+        order : Order ();
+        customer : Customer ( status == Customer.GOLD_CUSTOMER) from order.getCustomer(); 
+    then
+         System.out.println("GOLD customer rule");
+    	order.setTotalPrice(order.getTotalPrice() * (1 - (10 / 100d) ) );
+end
+
+// Comprobamos si el pedido tiene 10 o más productos, si es así aplicamos un 15% de descuento
+// Esta regla solo será aplicada en Septiembre de 2015
+rule "Number of products rule"	
+	salience 10	
+	date-effective "01-ENE-2015"
+	date-expires "01-OCT-2015"
+	when
+        order : Order (products.size() >= 10);
+    then
+        System.out.println("Number of products rule");
+    	order.setTotalPrice(order.getTotalPrice() * (1 - (15 / 100d) ) );
+end
