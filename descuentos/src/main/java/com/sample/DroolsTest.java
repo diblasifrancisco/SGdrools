@@ -117,6 +117,7 @@ public class DroolsTest {
 	private static Customer getGoldCustomer() {
 		return new Customer(Customer.GOLD_CUSTOMER, "Cliente GOLD");
 	}
+	
 
 	private static Product getProduct1() {
 		return new Product(1, "Producto 1", 100d);
