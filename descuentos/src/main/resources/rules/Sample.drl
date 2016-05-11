@@ -24,10 +24,13 @@ rule "Mensaje codigo amarillo y creación de despacho"
 end
 
 
+
+
 rule "Cambiar estado movil asignado"
  salience 5
  when 
- despacho: Despacho(); 
+ despacho: Despacho();
+ desenlace: Desenlace(despacho.desenlace!="No registra") 
  then
  despacho.movil.setEstado("Asignado");
 end
