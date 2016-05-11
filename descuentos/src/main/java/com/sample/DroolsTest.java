@@ -60,9 +60,17 @@ public class DroolsTest {
 	
 	private static List<Recepcion> getRecepciones(){
 		List<Recepcion> lista = new ArrayList<Recepcion>();
+		
 		lista.add(new Recepcion(new Despacho(),new Codigo(1,"RJO",""),1));
 		lista.add(new Recepcion(new Despacho(),new Codigo(2,"AMA",""),2));
 		lista.add(new Recepcion(new Despacho(),new Codigo(2,"VDE",""),4));
+		int i=0;
+		int hr=1000;
+		for (Recepcion r:lista){
+			i++;
+			r.setFecha_reg(20160510+i);
+			r.setHora_reg(hr+i*100);
+		}
 		return lista;
 	};
 	
@@ -73,6 +81,8 @@ public class DroolsTest {
 		Despacho desp1 = new Despacho();
 		desp1.setMovil(new Movil(new EstadoMovil("No Disponible"), 
 				1, "Movil 1"));
+		Desenlace desenlace = new Desenlace(1, "Desenlace Ejemplo");
+		desp1.setDesenlace(desenlace);
 		lista.add(desp1);
 		
 		//despacho para regla 5
@@ -105,12 +115,12 @@ public class DroolsTest {
 			System.out.println("------------------------------------------"
 					+ "\nDATOS DE RECEPCION: "
 					+ "\n-Nro Recepcion : "+r.getNrorecepcion()
-					+ "\n-Fecha         : "+r.getFecha_reg()+ " - "+r.getHora_reg()
+					+ "\n-Fecha   : "+ String.valueOf(r.getFecha_reg()).substring(7, 8)+"/"+String.valueOf(r.getFecha_reg()).substring(5, 6)+"/"+String.valueOf(r.getFecha_reg()).substring(1, 4)
+					       + " - Hora "+String.valueOf(r.getHora_reg()).substring(1, 2)+":"+String.valueOf(r.getHora_reg()).substring(3, 4)
 					+ "\n-  Codigo Nro  : "+r.getCodigo().getCodigo()
 					+ "\n-  Codigo Desc :"+r.getCodigo().getDescripcion()
 					+ "\n-  Despacho Nro:"+r.getDespacho().getNrodespacho()
 		     );
-
 		}
 	}
    

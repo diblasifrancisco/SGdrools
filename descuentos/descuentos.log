@@ -5,215 +5,215 @@
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>1</factId>
-      <objectToString>com.sample.Recepcion@7651218e</objectToString>
+      <objectToString>com.sample.Recepcion@1fdfafd2</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>2</factId>
-      <objectToString>com.sample.Recepcion@4e76dac</objectToString>
+      <objectToString>com.sample.Recepcion@1eb6749b</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>3</factId>
-      <objectToString>com.sample.Recepcion@611df6e3</objectToString>
+      <objectToString>com.sample.Recepcion@652a7737</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>4</factId>
-      <objectToString>com.sample.Despacho@5f2f577</objectToString>
+      <objectToString>com.sample.Despacho@5b7ea70d</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>5</factId>
-      <objectToString>com.sample.Despacho@f9d87b</objectToString>
+      <objectToString>com.sample.Despacho@4a335fa8</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Cambiar estado movil asignado [5]</activationId>
       <rule>Cambiar estado movil asignado</rule>
-      <declarations>despacho=com.sample.Despacho@f9d87b</declarations>
+      <declarations>despacho=com.sample.Despacho@4a335fa8</declarations>
       <factHandleIds>5</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Cambiar estado movil asignado [4]</activationId>
       <rule>Cambiar estado movil asignado</rule>
-      <declarations>despacho=com.sample.Despacho@5f2f577</declarations>
+      <declarations>despacho=com.sample.Despacho@5b7ea70d</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Cambiar estado movil asignado [5]</activationId>
       <rule>Cambiar estado movil asignado</rule>
-      <declarations>despacho=com.sample.Despacho@f9d87b</declarations>
+      <declarations>despacho=com.sample.Despacho@4a335fa8</declarations>
       <factHandleIds>5</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Cambiar estado movil asignado [5]</activationId>
       <rule>Cambiar estado movil asignado</rule>
-      <declarations>despacho=com.sample.Despacho@f9d87b</declarations>
+      <declarations>despacho=com.sample.Despacho@4a335fa8</declarations>
       <factHandleIds>5</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Cambiar estado movil asignado [4]</activationId>
       <rule>Cambiar estado movil asignado</rule>
-      <declarations>despacho=com.sample.Despacho@5f2f577</declarations>
+      <declarations>despacho=com.sample.Despacho@5b7ea70d</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Cambiar estado movil asignado [4]</activationId>
       <rule>Cambiar estado movil asignado</rule>
-      <declarations>despacho=com.sample.Despacho@5f2f577</declarations>
+      <declarations>despacho=com.sample.Despacho@5b7ea70d</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Asignar desenlace a despacho nuevo [5]</activationId>
       <rule>Asignar desenlace a despacho nuevo</rule>
-      <declarations>despacho=com.sample.Despacho@f9d87b</declarations>
+      <declarations>despacho=com.sample.Despacho@4a335fa8</declarations>
       <factHandleIds>5</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Asignar desenlace a despacho nuevo [4]</activationId>
       <rule>Asignar desenlace a despacho nuevo</rule>
-      <declarations>despacho=com.sample.Despacho@5f2f577</declarations>
+      <declarations>despacho=com.sample.Despacho@5b7ea70d</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Asignar desenlace a despacho nuevo [5]</activationId>
       <rule>Asignar desenlace a despacho nuevo</rule>
-      <declarations>despacho=com.sample.Despacho@f9d87b</declarations>
+      <declarations>despacho=com.sample.Despacho@4a335fa8</declarations>
       <factHandleIds>5</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Asignar desenlace a despacho nuevo [5]</activationId>
       <rule>Asignar desenlace a despacho nuevo</rule>
-      <declarations>despacho=com.sample.Despacho@f9d87b</declarations>
+      <declarations>despacho=com.sample.Despacho@4a335fa8</declarations>
       <factHandleIds>5</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Asignar desenlace a despacho nuevo [4]</activationId>
       <rule>Asignar desenlace a despacho nuevo</rule>
-      <declarations>despacho=com.sample.Despacho@5f2f577</declarations>
+      <declarations>despacho=com.sample.Despacho@5b7ea70d</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Asignar desenlace a despacho nuevo [4]</activationId>
       <rule>Asignar desenlace a despacho nuevo</rule>
-      <declarations>despacho=com.sample.Despacho@5f2f577</declarations>
+      <declarations>despacho=com.sample.Despacho@5b7ea70d</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Cambiar estado movil a disponible [5]</activationId>
       <rule>Cambiar estado movil a disponible</rule>
-      <declarations>despacho=com.sample.Despacho@f9d87b</declarations>
+      <declarations>despacho=com.sample.Despacho@4a335fa8</declarations>
       <factHandleIds>5</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Cambiar estado movil a disponible [4]</activationId>
       <rule>Cambiar estado movil a disponible</rule>
-      <declarations>despacho=com.sample.Despacho@5f2f577</declarations>
+      <declarations>despacho=com.sample.Despacho@5b7ea70d</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Cambiar estado movil a disponible [5]</activationId>
       <rule>Cambiar estado movil a disponible</rule>
-      <declarations>despacho=com.sample.Despacho@f9d87b</declarations>
+      <declarations>despacho=com.sample.Despacho@4a335fa8</declarations>
       <factHandleIds>5</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Cambiar estado movil a disponible [5]</activationId>
       <rule>Cambiar estado movil a disponible</rule>
-      <declarations>despacho=com.sample.Despacho@f9d87b</declarations>
+      <declarations>despacho=com.sample.Despacho@4a335fa8</declarations>
       <factHandleIds>5</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Cambiar estado movil a disponible [4]</activationId>
       <rule>Cambiar estado movil a disponible</rule>
-      <declarations>despacho=com.sample.Despacho@5f2f577</declarations>
+      <declarations>despacho=com.sample.Despacho@5b7ea70d</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Cambiar estado movil a disponible [4]</activationId>
       <rule>Cambiar estado movil a disponible</rule>
-      <declarations>despacho=com.sample.Despacho@5f2f577</declarations>
+      <declarations>despacho=com.sample.Despacho@5b7ea70d</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Setear fecha y hora de recepción [3]</activationId>
       <rule>Setear fecha y hora de recepción</rule>
-      <declarations>recepcion=com.sample.Recepcion@611df6e3</declarations>
+      <declarations>recepcion=com.sample.Recepcion@652a7737</declarations>
       <factHandleIds>3</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Setear fecha y hora de recepción [2]</activationId>
       <rule>Setear fecha y hora de recepción</rule>
-      <declarations>recepcion=com.sample.Recepcion@4e76dac</declarations>
+      <declarations>recepcion=com.sample.Recepcion@1eb6749b</declarations>
       <factHandleIds>2</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Setear fecha y hora de recepción [1]</activationId>
       <rule>Setear fecha y hora de recepción</rule>
-      <declarations>recepcion=com.sample.Recepcion@7651218e</declarations>
+      <declarations>recepcion=com.sample.Recepcion@1fdfafd2</declarations>
       <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Setear fecha y hora de recepción [3]</activationId>
       <rule>Setear fecha y hora de recepción</rule>
-      <declarations>recepcion=com.sample.Recepcion@611df6e3</declarations>
+      <declarations>recepcion=com.sample.Recepcion@652a7737</declarations>
       <factHandleIds>3</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Setear fecha y hora de recepción [3]</activationId>
       <rule>Setear fecha y hora de recepción</rule>
-      <declarations>recepcion=com.sample.Recepcion@611df6e3</declarations>
+      <declarations>recepcion=com.sample.Recepcion@652a7737</declarations>
       <factHandleIds>3</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Setear fecha y hora de recepción [2]</activationId>
       <rule>Setear fecha y hora de recepción</rule>
-      <declarations>recepcion=com.sample.Recepcion@4e76dac</declarations>
+      <declarations>recepcion=com.sample.Recepcion@1eb6749b</declarations>
       <factHandleIds>2</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Setear fecha y hora de recepción [2]</activationId>
       <rule>Setear fecha y hora de recepción</rule>
-      <declarations>recepcion=com.sample.Recepcion@4e76dac</declarations>
+      <declarations>recepcion=com.sample.Recepcion@1eb6749b</declarations>
       <factHandleIds>2</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Setear fecha y hora de recepción [1]</activationId>
       <rule>Setear fecha y hora de recepción</rule>
-      <declarations>recepcion=com.sample.Recepcion@7651218e</declarations>
+      <declarations>recepcion=com.sample.Recepcion@1fdfafd2</declarations>
       <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Setear fecha y hora de recepción [1]</activationId>
       <rule>Setear fecha y hora de recepción</rule>
-      <declarations>recepcion=com.sample.Recepcion@7651218e</declarations>
+      <declarations>recepcion=com.sample.Recepcion@1fdfafd2</declarations>
       <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
   </events>
@@ -225,424 +225,4 @@
   <events/>
   <engine>PHREAK</engine>
 </org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
 </object-stream>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
-<org.drools.core.audit.WorkingMemoryLog>
-  <version>6.1</version>
-  <events/>
-  <engine>PHREAK</engine>
-</org.drools.core.audit.WorkingMemoryLog>
