@@ -127,6 +127,22 @@ public class DroolsTest {
 			System.out.println("Cliente " + order.getCustomer() + " productos: " + order.getProducts().size()
 					+ " Precio total: " + order.getTotalPrice());
 		}
+		
+		
+	}
+	
+	private static void showDespachos(List<Despacho> listDespachos){
+		for (Despacho d : listDespachos){
+			System.out.println("------------------------------------------"
+					+ "\nDATOS DEL DESPACHO: "
+					+ "\n  - Despacho Nro: "+d.getNrodespacho()
+					+ "\n        -----------------"
+					+ "\nDATOS DEL MOVIL"
+					+ "\n  - Movil Id: "+d.getMovil().getId()
+					+ "\n  - Movil Descripcion: "+d.getMovil().getDescripcion()
+					+ "\n  - Movil Estado: "+d.getMovil().getEstado().getEstado());
+
+		}
 	}
    
 }
