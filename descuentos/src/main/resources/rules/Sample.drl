@@ -33,6 +33,13 @@ rule "Cambiar estado movil asignado"
 end
 
 
+rule "Asignar desenlace a despacho nuevo"
+ salience 5
+ when 
+ despacho: Despacho(); 
+ then
+ despacho.setDesenlace(new Desenlace(1, "No registra"));
+end
 
 
 rule "Cambiar estado movil a disponible"
