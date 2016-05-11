@@ -46,6 +46,9 @@ public class DroolsTest {
 	
 	private static List<Recepcion> getRecepciones(){
 		List<Recepcion> lista = new ArrayList<Recepcion>();
+		lista.add(new Recepcion(new Despacho(),new Codigo(1,"RJO",""),1));
+		lista.add(new Recepcion(new Despacho(),new Codigo(2,"AMA",""),2));
+		lista.add(new Recepcion(new Despacho(),new Codigo(2,"VDE",""),4));
 		return lista;
 	};
 	
