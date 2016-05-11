@@ -12,6 +12,8 @@ import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 import org.mvel2.ast.ForEachNode;
 
+import sun.security.action.GetLongAction;
+
 /**
  * This is a sample class to launch a rule.
  */
@@ -40,11 +42,15 @@ public class DroolsTest {
 				kSession.insert(despacho);
 			}
 			
+			
 		    kSession.fireAllRules();
 		    logger.close();
 		    // and then dispose the session
 		    kSession.dispose();
 		    //showResults(orders);
+		    
+		    showDespachos(getDespachos());
+		    showRecepcion(getRecepciones());
 		    
 		    
 		} catch (Throwable t) {
@@ -78,70 +84,32 @@ public class DroolsTest {
 	};
 	
 	
-	
-	
-    private static Order getOrderWithDefaultCustomer() {
-		final Order order = new Order(getDefaultCustomer());
-		order.addProduct(getProduct1());
-		return order;
-	}
-
-	private static Order getOrderWithSilverCustomer() {
-		final Order order = new Order(getSilverCustomer());
-		order.addProduct(getProduct1());
-		return order;
-	}
-
-	private static Order getOrderWithGoldCustomer() {
-		final Order order = new Order(getGoldCustomer());
-		order.addProduct(getProduct1());
-		return order;
-	}
-
-	private static Order getOrderWithGoldCustomerAndTenProducts() {
-		final Order order = new Order(getSilverCustomer());
-		for (int i = 0; i < 10; i++) {
-			order.addProduct(getProduct1());
-		}
-		return order;
-	}
-
-	private static Customer getDefaultCustomer() {
-		return new Customer(Customer.DEFAULT_CUSTOMER, "Cliente estandar");
-	}
-
-	private static Customer getSilverCustomer() {
-		return new Customer(Customer.SILVER_CUSTOMER, "Cliente SILVER");
-	}
-
-	private static Customer getGoldCustomer() {
-		return new Customer(Customer.GOLD_CUSTOMER, "Cliente GOLD");
-	}
-	
-
-	private static Product getProduct1() {
-		return new Product(1, "Producto 1", 100d);
-	}
-
-	private static void showResults(List<Order> orders) {
-		for (Order order : orders) {
-			System.out.println("Cliente " + order.getCustomer() + " productos: " + order.getProducts().size()
-					+ " Precio total: " + order.getTotalPrice());
-		}
-		
-		
-	}
-	
 	private static void showDespachos(List<Despacho> listDespachos){
 		for (Despacho d : listDespachos){
 			System.out.println("------------------------------------------"
 					+ "\nDATOS DEL DESPACHO: "
-					+ "\n  - Despacho Nro: "+d.getNrodespacho()
-					+ "\n        -----------------"
-					+ "\nDATOS DEL MOVIL"
-					+ "\n  - Movil Id: "+d.getMovil().getId()
+					+ "\n- Despacho Nro: "+d.getNrodespacho()
+					+ "\n          -----------"
+					+ "\n  - Movil Id         : "+d.getMovil().getId()
 					+ "\n  - Movil Descripcion: "+d.getMovil().getDescripcion()
-					+ "\n  - Movil Estado: "+d.getMovil().getEstado().getEstado());
+					+ "\n  - Movil Estado     : "+d.getMovil().getEstado().getEstado()
+					+ "\n          -----------"
+					+ "\n  - Desenlace Id  :"+d.getDesenlace().getId()
+					+ "\n  - Desenlace Desc: "+d.getDesenlace().getDesenlace()
+					+ "\n  - Movil Estado  : "+d.getMovil().getEstado().getEstado());
+		}
+	}
+	
+	private static void showRecepcion(List<Recepcion> listRecepcion){
+		for (Recepcion r: listRecepcion){
+			System.out.println("------------------------------------------"
+					+ "\nDATOS DE RECEPCION: "
+					+ "\n-Nro Recepcion : "+r.getNrorecepcion()
+					+ "\n-Fecha         : "+r.getFecha_reg()+ " - "+r.getHora_reg()
+					+ "\n-  Codigo Nro  : "+r.getCodigo().getCodigo()
+					+ "\n-  Codigo Desc :"+r.getCodigo().getDescripcion()
+					+ "\n-  Despacho Nro:"+r.getDespacho().getNrodespacho()
+		     );
 
 		}
 	}
