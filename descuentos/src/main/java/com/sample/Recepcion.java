@@ -1,10 +1,15 @@
 package com.sample;
 
+import java.util.Calendar;
+
 public class Recepcion {
 
 	Despacho despacho;
 	Codigo codigo;
 	private int nrorecepcion;
+	
+	private int fecha_reg;
+	private int hora_reg;
 
 	public Recepcion(Despacho despacho, Codigo codigo, int nrorecepcion) {
 		super();
@@ -36,5 +41,20 @@ public class Recepcion {
 	public void setNrorecepcion(int nrorecepcion) {
 		this.nrorecepcion = nrorecepcion;
 	}
+	
+	public int getFecha_reg() {
+		return fecha_reg;
+	}
 
+	public void setFecha_reg(int fecha_reg) {
+		this.fecha_reg = fecha_reg;
+	}
+
+	public int getHora_reg() {
+		return hora_reg;
+	}
+
+	public void setHora_reg(int hora_reg) {
+		this.hora_reg = hora_reg;
+	}
 }

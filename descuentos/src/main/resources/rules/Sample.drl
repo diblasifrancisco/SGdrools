@@ -23,7 +23,6 @@ rule "Mensaje codigo amarillo y creación de despacho"
 	 Recepcion.setDespacho(new Despacho());	
 end
 
-
 rule "Cambiar estado movil asignado"
  salience 5
  when 
@@ -31,7 +30,6 @@ rule "Cambiar estado movil asignado"
  then
  despacho.movil.setEstado(new EstadoMovil("Asignado"));
 end
-
 
 rule "Asignar desenlace a despacho nuevo"
  salience 5
@@ -41,13 +39,21 @@ rule "Asignar desenlace a despacho nuevo"
  despacho.setDesenlace(new Desenlace(1, "No registra"));
 end
 
-
 rule "Cambiar estado movil a disponible"
 	salience 5
 	when 
 	despacho: Despacho(despacho.desenlace!="No registra")
 	then
 	despacho.movil.setEstado(new EstadoMovil("Disponible"));
+end
+
+rule "Setear fecha y hora de recepción"
+	salience 5
+	when 
+	recepcion: Recepcion();
+	then
+	recepcion.setFecha_reg(java.util.Calendar.getInstance().DATE);
+	recepcion.setHora_reg(java.util.Calendar.getInstance().HOUR_OF_DAY);
 end
 
 

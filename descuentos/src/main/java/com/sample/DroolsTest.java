@@ -15,32 +15,32 @@ import org.kie.api.runtime.KieSession;
  */
 public class DroolsTest {
 
-    public static final void main(String[] args) {
-        try {
-            // load up the knowledge base
-	        KieServices ks = KieServices.Factory.get();
-    	    KieContainer kContainer = ks.getKieClasspathContainer();
-        	KieSession kSession = kContainer.newKieSession("ksession-rules");
-        	
-        	 kSession.addEventListener( new DebugAgendaEventListener() );
-             kSession.addEventListener( new DebugRuleRuntimeEventListener() );
-             
-             KieRuntimeLogger logger = ks.getLoggers().newThreadedFileLogger( kSession, "./descuentos", 1000 );
-             
-        	final List<Order> orders = Arrays.asList(getOrderWithDefaultCustomer(), getOrderWithSilverCustomer(),
-    				getOrderWithGoldCustomer(), getOrderWithGoldCustomerAndTenProducts());
-    		for (Order order : orders) {
-    			kSession.insert(order);
-    		}
-    		
-            kSession.fireAllRules();
-            logger.close();
-            // and then dispose the session
-            kSession.dispose();
-            showResults(orders);
-        } catch (Throwable t) {
-            t.printStackTrace();
-        }
+	public static final void main(String[] args) {
+		try {
+		    // load up the knowledge base
+		    KieServices ks = KieServices.Factory.get();
+		    KieContainer kContainer = ks.getKieClasspathContainer();
+			KieSession kSession = kContainer.newKieSession("ksession-rules");
+			
+			 kSession.addEventListener( new DebugAgendaEventListener() );
+		     kSession.addEventListener( new DebugRuleRuntimeEventListener() );
+		     
+		     KieRuntimeLogger logger = ks.getLoggers().newThreadedFileLogger( kSession, "./descuentos", 1000 );
+		     
+		     final List<Order> orders = Arrays.asList(getOrderWithDefaultCustomer(), getOrderWithSilverCustomer(),
+					getOrderWithGoldCustomer(), getOrderWithGoldCustomerAndTenProducts());
+			for (Order order : orders) {
+				kSession.insert(order);
+			}
+			
+		    kSession.fireAllRules();
+		    logger.close();
+		    // and then dispose the session
+		    kSession.dispose();
+		    showResults(orders);
+		} catch (Throwable t) {
+		    t.printStackTrace();
+		}
     }
     private static Order getOrderWithDefaultCustomer() {
 		final Order order = new Order(getDefaultCustomer());
