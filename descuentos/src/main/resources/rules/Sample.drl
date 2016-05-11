@@ -23,6 +23,7 @@ rule "Mensaje codigo amarillo y creación de despacho"
 	 recepcion.setDespacho(new Despacho());	
 end
 
+
 rule "Cambiar estado movil asignado"
  salience 5
  when 
