@@ -28,18 +28,11 @@ public class DroolsTest {
 			kSession.addEventListener( new DebugRuleRuntimeEventListener() );
 			
 			KieRuntimeLogger logger = ks.getLoggers().newThreadedFileLogger( kSession, "./descuentos", 1000 );
-		     
-		     final List<Order> orders = Arrays.asList(getOrderWithDefaultCustomer(), getOrderWithSilverCustomer(),
-					getOrderWithGoldCustomer(), getOrderWithGoldCustomerAndTenProducts());
-		     
-		     final List<Recepcion> recepciones = getRecepciones();
+
+			final List<Recepcion> recepciones = getRecepciones();
 				
-		     for(Recepcion recepcion:recepciones ){
-		    	 kSession.insert(recepcion);
-		     }
-		     
-		     for (Order order : orders) {
-				kSession.insert(order);
+			for(Recepcion recepcion:recepciones ){
+				kSession.insert(recepcion);
 			}
 			
 			final List<Despacho> listaDespachos = getDespachos();
@@ -51,7 +44,7 @@ public class DroolsTest {
 		    logger.close();
 		    // and then dispose the session
 		    kSession.dispose();
-		    showResults(orders);
+		    //showResults(orders);
 		    
 		    
 		} catch (Throwable t) {
@@ -71,12 +64,15 @@ public class DroolsTest {
 		List<Despacho> lista = new ArrayList<Despacho>();
 		
 		//despacho vacio para reglas 3 y 4
-		lista.add(new Despacho());
+		Despacho desp1 = new Despacho();
+		desp1.setMovil(new Movil(new EstadoMovil("No Disponible"), 
+				1, "Movil 1"));
+		lista.add(desp1);
 		
 		//despacho para regla 5
-		Despacho desp = new Despacho(new Movil(new EstadoMovil("No Disponible"), 
-				1, "Movil 1"),new Desenlace(1,""),1);
-		lista.add(desp);
+		Despacho desp2 = new Despacho(new Movil(new EstadoMovil("No Disponible"), 
+				2, "Movil 2"),new Desenlace(1,""),1);
+		lista.add(desp2);
 		
 		return lista;
 	};
