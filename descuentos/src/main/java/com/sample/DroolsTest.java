@@ -51,6 +51,15 @@ public class DroolsTest {
 	
 	private static List<Despacho> getDespachos(){
 		List<Despacho> lista = new ArrayList<Despacho>();
+		
+		//despacho vacio para reglas 3 y 4
+		lista.add(new Despacho());
+		
+		//despacho para regla 5
+		Despacho desp = new Despacho(new Movil(new EstadoMovil("No Disponible"), 
+				1, "Movil 1"),new Desenlace(1,""),1);
+		lista.add(desp);
+		
 		return lista;
 	};
 	
