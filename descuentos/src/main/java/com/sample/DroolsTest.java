@@ -10,6 +10,7 @@ import org.kie.api.event.rule.DebugRuleRuntimeEventListener;
 import org.kie.api.logger.KieRuntimeLogger;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
+import org.mvel2.ast.ForEachNode;
 
 /**
  * This is a sample class to launch a rule.
@@ -30,7 +31,14 @@ public class DroolsTest {
 		     
 		     final List<Order> orders = Arrays.asList(getOrderWithDefaultCustomer(), getOrderWithSilverCustomer(),
 					getOrderWithGoldCustomer(), getOrderWithGoldCustomerAndTenProducts());
-			for (Order order : orders) {
+		     
+		     final List<Recepcion> recepciones = getRecepciones();
+				
+		     for(Recepcion recepcion:recepciones ){
+		    	 kSession.insert(recepcion);
+		     }
+		     
+		     for (Order order : orders) {
 				kSession.insert(order);
 			}
 			
@@ -44,6 +52,8 @@ public class DroolsTest {
 		    // and then dispose the session
 		    kSession.dispose();
 		    showResults(orders);
+		    
+		    
 		} catch (Throwable t) {
 		    t.printStackTrace();
 		}
