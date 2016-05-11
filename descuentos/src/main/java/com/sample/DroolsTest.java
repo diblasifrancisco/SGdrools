@@ -1,5 +1,6 @@
 package com.sample;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -22,10 +23,10 @@ public class DroolsTest {
 		    KieContainer kContainer = ks.getKieClasspathContainer();
 			KieSession kSession = kContainer.newKieSession("ksession-rules");
 			
-			 kSession.addEventListener( new DebugAgendaEventListener() );
-		     kSession.addEventListener( new DebugRuleRuntimeEventListener() );
-		     
-		     KieRuntimeLogger logger = ks.getLoggers().newThreadedFileLogger( kSession, "./descuentos", 1000 );
+			kSession.addEventListener( new DebugAgendaEventListener() );
+			kSession.addEventListener( new DebugRuleRuntimeEventListener() );
+			
+			KieRuntimeLogger logger = ks.getLoggers().newThreadedFileLogger( kSession, "./descuentos", 1000 );
 		     
 		     final List<Order> orders = Arrays.asList(getOrderWithDefaultCustomer(), getOrderWithSilverCustomer(),
 					getOrderWithGoldCustomer(), getOrderWithGoldCustomerAndTenProducts());
@@ -42,6 +43,20 @@ public class DroolsTest {
 		    t.printStackTrace();
 		}
     }
+	
+	private static List<Recepcion> getRecepciones(){
+		List<Recepcion> lista = new ArrayList<Recepcion>();
+		return lista;
+	};
+	
+	private static List<Despacho> getDespachos(){
+		List<Despacho> lista = new ArrayList<Despacho>();
+		return lista;
+	};
+	
+	
+	
+	
     private static Order getOrderWithDefaultCustomer() {
 		final Order order = new Order(getDefaultCustomer());
 		order.addProduct(getProduct1());
