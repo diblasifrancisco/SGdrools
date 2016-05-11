@@ -5,189 +5,175 @@
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>1</factId>
-      <objectToString>com.sample.Order@f6c03cb</objectToString>
+      <objectToString>com.sample.Order@267f474e</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>2</factId>
-      <objectToString>com.sample.Order@3c0fae6c</objectToString>
+      <objectToString>com.sample.Order@4b85880b</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>3</factId>
-      <objectToString>com.sample.Order@4c168660</objectToString>
+      <objectToString>com.sample.Order@4f936da8</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>4</factId>
-      <objectToString>com.sample.Order@52b56a3e</objectToString>
+      <objectToString>com.sample.Order@4215838f</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Initial rule [4, 34]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@52b56a3e; totalPrice=1000.0</declarations>
+      <declarations>order=com.sample.Order@4215838f; totalPrice=1000.0</declarations>
       <factHandleIds>4,34</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Initial rule [3, 33]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4c168660; totalPrice=100.0</declarations>
+      <declarations>order=com.sample.Order@4f936da8; totalPrice=100.0</declarations>
       <factHandleIds>3,33</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Initial rule [2, 32]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@3c0fae6c; totalPrice=100.0</declarations>
+      <declarations>order=com.sample.Order@4b85880b; totalPrice=100.0</declarations>
       <factHandleIds>2,32</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Initial rule [1, 31]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@f6c03cb; totalPrice=100.0</declarations>
+      <declarations>order=com.sample.Order@267f474e; totalPrice=100.0</declarations>
       <factHandleIds>1,31</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Initial rule [4, 34]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@52b56a3e; totalPrice=1000.0</declarations>
+      <declarations>order=com.sample.Order@4215838f; totalPrice=1000.0</declarations>
       <factHandleIds>4,34</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Initial rule [4, 34]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@52b56a3e; totalPrice=1000.0</declarations>
+      <declarations>order=com.sample.Order@4215838f; totalPrice=1000.0</declarations>
       <factHandleIds>4,34</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Initial rule [3, 33]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4c168660; totalPrice=100.0</declarations>
+      <declarations>order=com.sample.Order@4f936da8; totalPrice=100.0</declarations>
       <factHandleIds>3,33</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Initial rule [3, 33]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4c168660; totalPrice=100.0</declarations>
+      <declarations>order=com.sample.Order@4f936da8; totalPrice=100.0</declarations>
       <factHandleIds>3,33</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Initial rule [2, 32]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@3c0fae6c; totalPrice=100.0</declarations>
+      <declarations>order=com.sample.Order@4b85880b; totalPrice=100.0</declarations>
       <factHandleIds>2,32</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Initial rule [2, 32]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@3c0fae6c; totalPrice=100.0</declarations>
+      <declarations>order=com.sample.Order@4b85880b; totalPrice=100.0</declarations>
       <factHandleIds>2,32</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>Initial rule [1, 31]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@f6c03cb; totalPrice=100.0</declarations>
+      <declarations>order=com.sample.Order@267f474e; totalPrice=100.0</declarations>
       <factHandleIds>1,31</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Initial rule [1, 31]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@f6c03cb; totalPrice=100.0</declarations>
+      <declarations>order=com.sample.Order@267f474e; totalPrice=100.0</declarations>
       <factHandleIds>1,31</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>SILVER customer rule [2, 37]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@3c0fae6c</declarations>
+      <declarations>order=com.sample.Order@4b85880b</declarations>
       <factHandleIds>2,37</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>SILVER customer rule [4, 35]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@52b56a3e</declarations>
+      <declarations>order=com.sample.Order@4215838f</declarations>
       <factHandleIds>4,35</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>SILVER customer rule [2, 37]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@3c0fae6c</declarations>
+      <declarations>order=com.sample.Order@4b85880b</declarations>
       <factHandleIds>2,37</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>SILVER customer rule [2, 37]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@3c0fae6c</declarations>
+      <declarations>order=com.sample.Order@4b85880b</declarations>
       <factHandleIds>2,37</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>SILVER customer rule [4, 35]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@52b56a3e</declarations>
+      <declarations>order=com.sample.Order@4215838f</declarations>
       <factHandleIds>4,35</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>SILVER customer rule [4, 35]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@52b56a3e</declarations>
+      <declarations>order=com.sample.Order@4215838f</declarations>
       <factHandleIds>4,35</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>GOLD customer rule [3, 40]</activationId>
       <rule>GOLD customer rule</rule>
-      <declarations>order=com.sample.Order@4c168660</declarations>
+      <declarations>order=com.sample.Order@4f936da8</declarations>
       <factHandleIds>3,40</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
       <activationId>GOLD customer rule [3, 40]</activationId>
       <rule>GOLD customer rule</rule>
-      <declarations>order=com.sample.Order@4c168660</declarations>
+      <declarations>order=com.sample.Order@4f936da8</declarations>
       <factHandleIds>3,40</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>GOLD customer rule [3, 40]</activationId>
       <rule>GOLD customer rule</rule>
-      <declarations>order=com.sample.Order@4c168660</declarations>
+      <declarations>order=com.sample.Order@4f936da8</declarations>
       <factHandleIds>3,40</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Number of products rule [4]</activationId>
       <rule>Number of products rule</rule>
-      <declarations>order=com.sample.Order@52b56a3e</declarations>
-      <factHandleIds>4</factHandleIds>
-    </org.drools.core.audit.event.ActivationLogEvent>
-    <org.drools.core.audit.event.ActivationLogEvent>
-      <type>6</type>
-      <activationId>Number of products rule [4]</activationId>
-      <rule>Number of products rule</rule>
-      <declarations>order=com.sample.Order@52b56a3e</declarations>
-      <factHandleIds>4</factHandleIds>
-    </org.drools.core.audit.event.ActivationLogEvent>
-    <org.drools.core.audit.event.ActivationLogEvent>
-      <type>7</type>
-      <activationId>Number of products rule [4]</activationId>
-      <rule>Number of products rule</rule>
-      <declarations>order=com.sample.Order@52b56a3e</declarations>
+      <declarations>order=com.sample.Order@4215838f</declarations>
       <factHandleIds>4</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
   </events>
