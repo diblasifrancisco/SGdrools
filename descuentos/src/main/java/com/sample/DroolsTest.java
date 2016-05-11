@@ -34,6 +34,11 @@ public class DroolsTest {
 				kSession.insert(order);
 			}
 			
+			final List<Despacho> listaDespachos = getDespachos();
+			for (Despacho despacho : listaDespachos) {
+				kSession.insert(despacho);
+			}
+			
 		    kSession.fireAllRules();
 		    logger.close();
 		    // and then dispose the session

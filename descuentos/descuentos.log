@@ -5,184 +5,1733 @@
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>1</factId>
-      <objectToString>com.sample.Order@267f474e</objectToString>
+      <objectToString>com.sample.Order@7651218e</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>2</factId>
-      <objectToString>com.sample.Order@4b85880b</objectToString>
+      <objectToString>com.sample.Order@70dd7e15</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>3</factId>
-      <objectToString>com.sample.Order@4f936da8</objectToString>
+      <objectToString>com.sample.Order@4a9f80d3</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>4</factId>
-      <objectToString>com.sample.Order@4215838f</objectToString>
+      <objectToString>com.sample.Order@35beb15e</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>5</factId>
+      <objectToString>com.sample.Despacho@6c67e137</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>6</factId>
+      <objectToString>com.sample.Despacho@2d10e0b1</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
-      <activationId>Initial rule [4, 34]</activationId>
+      <activationId>Initial rule [4, 36]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4215838f; totalPrice=1000.0</declarations>
-      <factHandleIds>4,34</factHandleIds>
+      <declarations>order=com.sample.Order@35beb15e; totalPrice=1000.0</declarations>
+      <factHandleIds>4,36</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
-      <activationId>Initial rule [3, 33]</activationId>
+      <activationId>Initial rule [3, 35]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4f936da8; totalPrice=100.0</declarations>
-      <factHandleIds>3,33</factHandleIds>
+      <declarations>order=com.sample.Order@4a9f80d3; totalPrice=100.0</declarations>
+      <factHandleIds>3,35</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
-      <activationId>Initial rule [2, 32]</activationId>
+      <activationId>Initial rule [2, 34]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4b85880b; totalPrice=100.0</declarations>
-      <factHandleIds>2,32</factHandleIds>
+      <declarations>order=com.sample.Order@70dd7e15; totalPrice=100.0</declarations>
+      <factHandleIds>2,34</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
-      <activationId>Initial rule [1, 31]</activationId>
+      <activationId>Initial rule [1, 33]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@267f474e; totalPrice=100.0</declarations>
-      <factHandleIds>1,31</factHandleIds>
+      <declarations>order=com.sample.Order@7651218e; totalPrice=100.0</declarations>
+      <factHandleIds>1,33</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
-      <activationId>Initial rule [4, 34]</activationId>
+      <activationId>Initial rule [4, 36]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4215838f; totalPrice=1000.0</declarations>
-      <factHandleIds>4,34</factHandleIds>
+      <declarations>order=com.sample.Order@35beb15e; totalPrice=1000.0</declarations>
+      <factHandleIds>4,36</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
-      <activationId>Initial rule [4, 34]</activationId>
+      <activationId>Initial rule [4, 36]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4215838f; totalPrice=1000.0</declarations>
-      <factHandleIds>4,34</factHandleIds>
+      <declarations>order=com.sample.Order@35beb15e; totalPrice=1000.0</declarations>
+      <factHandleIds>4,36</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
-      <activationId>Initial rule [3, 33]</activationId>
+      <activationId>Initial rule [3, 35]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4f936da8; totalPrice=100.0</declarations>
-      <factHandleIds>3,33</factHandleIds>
+      <declarations>order=com.sample.Order@4a9f80d3; totalPrice=100.0</declarations>
+      <factHandleIds>3,35</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
-      <activationId>Initial rule [3, 33]</activationId>
+      <activationId>Initial rule [3, 35]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4f936da8; totalPrice=100.0</declarations>
-      <factHandleIds>3,33</factHandleIds>
+      <declarations>order=com.sample.Order@4a9f80d3; totalPrice=100.0</declarations>
+      <factHandleIds>3,35</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
-      <activationId>Initial rule [2, 32]</activationId>
+      <activationId>Initial rule [2, 34]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4b85880b; totalPrice=100.0</declarations>
-      <factHandleIds>2,32</factHandleIds>
+      <declarations>order=com.sample.Order@70dd7e15; totalPrice=100.0</declarations>
+      <factHandleIds>2,34</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
-      <activationId>Initial rule [2, 32]</activationId>
+      <activationId>Initial rule [2, 34]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@4b85880b; totalPrice=100.0</declarations>
-      <factHandleIds>2,32</factHandleIds>
+      <declarations>order=com.sample.Order@70dd7e15; totalPrice=100.0</declarations>
+      <factHandleIds>2,34</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
-      <activationId>Initial rule [1, 31]</activationId>
+      <activationId>Initial rule [1, 33]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@267f474e; totalPrice=100.0</declarations>
-      <factHandleIds>1,31</factHandleIds>
+      <declarations>order=com.sample.Order@7651218e; totalPrice=100.0</declarations>
+      <factHandleIds>1,33</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
-      <activationId>Initial rule [1, 31]</activationId>
+      <activationId>Initial rule [1, 33]</activationId>
       <rule>Initial rule</rule>
-      <declarations>order=com.sample.Order@267f474e; totalPrice=100.0</declarations>
-      <factHandleIds>1,31</factHandleIds>
+      <declarations>order=com.sample.Order@7651218e; totalPrice=100.0</declarations>
+      <factHandleIds>1,33</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
-      <activationId>SILVER customer rule [2, 37]</activationId>
+      <activationId>SILVER customer rule [2, 39]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@4b85880b</declarations>
-      <factHandleIds>2,37</factHandleIds>
+      <declarations>order=com.sample.Order@70dd7e15</declarations>
+      <factHandleIds>2,39</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
-      <activationId>SILVER customer rule [4, 35]</activationId>
+      <activationId>SILVER customer rule [4, 37]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@4215838f</declarations>
-      <factHandleIds>4,35</factHandleIds>
+      <declarations>order=com.sample.Order@35beb15e</declarations>
+      <factHandleIds>4,37</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
-      <activationId>SILVER customer rule [2, 37]</activationId>
+      <activationId>SILVER customer rule [2, 39]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@4b85880b</declarations>
-      <factHandleIds>2,37</factHandleIds>
+      <declarations>order=com.sample.Order@70dd7e15</declarations>
+      <factHandleIds>2,39</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
-      <activationId>SILVER customer rule [2, 37]</activationId>
+      <activationId>SILVER customer rule [2, 39]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@4b85880b</declarations>
-      <factHandleIds>2,37</factHandleIds>
+      <declarations>order=com.sample.Order@70dd7e15</declarations>
+      <factHandleIds>2,39</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
-      <activationId>SILVER customer rule [4, 35]</activationId>
+      <activationId>SILVER customer rule [4, 37]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@4215838f</declarations>
-      <factHandleIds>4,35</factHandleIds>
+      <declarations>order=com.sample.Order@35beb15e</declarations>
+      <factHandleIds>4,37</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
-      <activationId>SILVER customer rule [4, 35]</activationId>
+      <activationId>SILVER customer rule [4, 37]</activationId>
       <rule>SILVER customer rule</rule>
-      <declarations>order=com.sample.Order@4215838f</declarations>
-      <factHandleIds>4,35</factHandleIds>
+      <declarations>order=com.sample.Order@35beb15e</declarations>
+      <factHandleIds>4,37</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
-      <activationId>GOLD customer rule [3, 40]</activationId>
+      <activationId>GOLD customer rule [3, 42]</activationId>
       <rule>GOLD customer rule</rule>
-      <declarations>order=com.sample.Order@4f936da8</declarations>
-      <factHandleIds>3,40</factHandleIds>
+      <declarations>order=com.sample.Order@4a9f80d3</declarations>
+      <factHandleIds>3,42</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>6</type>
-      <activationId>GOLD customer rule [3, 40]</activationId>
+      <activationId>GOLD customer rule [3, 42]</activationId>
       <rule>GOLD customer rule</rule>
-      <declarations>order=com.sample.Order@4f936da8</declarations>
-      <factHandleIds>3,40</factHandleIds>
+      <declarations>order=com.sample.Order@4a9f80d3</declarations>
+      <factHandleIds>3,42</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
-      <activationId>GOLD customer rule [3, 40]</activationId>
+      <activationId>GOLD customer rule [3, 42]</activationId>
       <rule>GOLD customer rule</rule>
-      <declarations>order=com.sample.Order@4f936da8</declarations>
-      <factHandleIds>3,40</factHandleIds>
+      <declarations>order=com.sample.Order@4a9f80d3</declarations>
+      <factHandleIds>3,42</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Number of products rule [4]</activationId>
       <rule>Number of products rule</rule>
-      <declarations>order=com.sample.Order@4215838f</declarations>
+      <declarations>order=com.sample.Order@35beb15e</declarations>
       <factHandleIds>4</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Cambiar estado movil asignado [6]</activationId>
+      <rule>Cambiar estado movil asignado</rule>
+      <declarations>despacho=com.sample.Despacho@2d10e0b1</declarations>
+      <factHandleIds>6</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Cambiar estado movil asignado [5]</activationId>
+      <rule>Cambiar estado movil asignado</rule>
+      <declarations>despacho=com.sample.Despacho@6c67e137</declarations>
+      <factHandleIds>5</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Cambiar estado movil asignado [6]</activationId>
+      <rule>Cambiar estado movil asignado</rule>
+      <declarations>despacho=com.sample.Despacho@2d10e0b1</declarations>
+      <factHandleIds>6</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
   </events>
   <engine>PHREAK</engine>
 </org.drools.core.audit.WorkingMemoryLog>
-</object-stream>
 <org.drools.core.audit.WorkingMemoryLog>
   <version>6.1</version>
   <events/>
   <engine>PHREAK</engine>
 </org.drools.core.audit.WorkingMemoryLog>
-</object-stream>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
