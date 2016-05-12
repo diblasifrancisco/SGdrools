@@ -37,10 +37,14 @@ public class DroolsTest {
 				kSession.insert(recepcion);
 			}
 			
-			final List<Despacho> listaDespachos = getDespachos();
+			for(Recepcion recepcion:recepciones ){
+				kSession.insert(recepcion.getDespacho());
+			}
+			
+			/*final List<Despacho> listaDespachos = getDespachos();
 			for (Despacho despacho : listaDespachos) {
 				kSession.insert(despacho);
-			}
+			}*/
 			
 			
 		    kSession.fireAllRules();
@@ -49,8 +53,8 @@ public class DroolsTest {
 		    kSession.dispose();
 		    //showResults(orders);
 		    
-		    showDespachos(getDespachos());
-		    showRecepcion(getRecepciones());
+		    //showDespachos(getDespachos());
+		      showRecepcion(getRecepciones());
 		    
 		    
 		} catch (Throwable t) {
@@ -60,20 +64,32 @@ public class DroolsTest {
 	
 	private static List<Recepcion> getRecepciones(){
 		List<Recepcion> lista = new ArrayList<Recepcion>();
+		//despacho vacio para reglas 3 y 4
+		Despacho desp1 = new Despacho();
+		desp1.setMovil(new Movil(new EstadoMovil("No Disponible"), 
+				1, "Movil 1"));
+		Desenlace desenlace = new Desenlace(1, "Desenlace Ejemplo");
+		desp1.setDesenlace(desenlace);
+
 		
-		lista.add(new Recepcion(new Despacho(),new Codigo(1,"RJO",""),1));
-		lista.add(new Recepcion(new Despacho(),new Codigo(2,"AMA",""),2));
-		lista.add(new Recepcion(new Despacho(),new Codigo(2,"VDE",""),4));
+		//despacho para regla 5
+		Despacho desp2 = new Despacho(new Movil(new EstadoMovil("No Disponible"), 
+				2, "Movil 2"),new Desenlace(1,""),1);
+		
+		//despacho para regla 5
+		Despacho desp3 = new Despacho(new Movil(new EstadoMovil("No Disponible"), 
+				4, "Movil 3"),new Desenlace(4,""),3);
+		
+		lista.add(new Recepcion(desp1,new Codigo(1,"RJO",""),1));
+		lista.add(new Recepcion(desp2,new Codigo(2,"AMA",""),2));
+		lista.add(new Recepcion(desp3,new Codigo(2,"VDE",""),4));
 		int i=0;
 		int hr=1000;
-		for (Recepcion r:lista){
-			i++;
-			r.setFecha_reg(20160510+i);
-			r.setHora_reg(hr+i*100);
-		}
 		return lista;
 	};
 	
+	
+	/* ESTO NO VA, DEBEN ESTAR ASOCIADOS A RECEPCIÓN (SOLUCIONADO)
 	private static List<Despacho> getDespachos(){
 		List<Despacho> lista = new ArrayList<Despacho>();
 		
@@ -108,18 +124,26 @@ public class DroolsTest {
 					+ "\n  - Desenlace Desc: "+d.getDesenlace().getDesenlace()
 					+ "\n  - Movil Estado  : "+d.getMovil().getEstado().getEstado());
 		}
-	}
+	}*/
 	
 	private static void showRecepcion(List<Recepcion> listRecepcion){
 		for (Recepcion r: listRecepcion){
 			System.out.println("------------------------------------------"
 					+ "\nDATOS DE RECEPCION: "
 					+ "\n-Nro Recepcion : "+r.getNrorecepcion()
-					+ "\n-Fecha   : "+ String.valueOf(r.getFecha_reg()).substring(7, 8)+"/"+String.valueOf(r.getFecha_reg()).substring(5, 6)+"/"+String.valueOf(r.getFecha_reg()).substring(1, 4)
-					       + " - Hora "+String.valueOf(r.getHora_reg()).substring(1, 2)+":"+String.valueOf(r.getHora_reg()).substring(3, 4)
+					+ "\n-Fecha   : "+ r.getFecha_reg()+ " - Hora: "+r.getHora_reg()
 					+ "\n-  Codigo Nro  : "+r.getCodigo().getCodigo()
 					+ "\n-  Codigo Desc :"+r.getCodigo().getDescripcion()
+					+ "\n          -----------"
 					+ "\n-  Despacho Nro:"+r.getDespacho().getNrodespacho()
+					+ "\n          -----------"
+					+ "\n  - Movil Id         : "+r.getDespacho().getMovil().getId()
+					+ "\n  - Movil Descripcion: "+r.getDespacho().getMovil().getDescripcion()
+					+ "\n  - Movil Estado     : "+r.getDespacho().getMovil().getEstado().getEstado()
+					+ "\n          -----------"
+					+ "\n  - Desenlace Id  :"+r.getDespacho().getDesenlace().getId()
+					+ "\n  - Desenlace Desc: "+r.getDespacho().getDesenlace().getDesenlace()
+					+ "\n  - Movil Estado  : "+r.getDespacho().getMovil().getEstado().getEstado()
 		     );
 		}
 	}

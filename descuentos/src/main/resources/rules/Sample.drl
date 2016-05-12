@@ -7,29 +7,29 @@ import com.sample.*;
 rule "Mensaje codigo rojo y creación de despacho"
 	salience 15
 	when
-	 Recepcion: Recepcion();
-	 codigo : Codigo (Recepcion.getCodigo()=="RJO");
+	  recepcion: Recepcion (codigo.getDescripcion()=="RJO");
+	 //codigo : Codigo (Recepcion.getCodigo()=="RJO");
 	 then
 	 System.out.println("Código rojo Emergencia con riesgo de vida inminente.");
-	 Recepcion.setDespacho(new Despacho());
+	 //recepcion.setDespacho(new Despacho()); Se asignan en la app, sino null pointer (acá o en la app)
 end
 
 //regla 2
 rule "Mensaje codigo amarillo y creación de despacho"
 	salience 10
 	when
-	 Recepcion: Recepcion();
-	 codigo : Codigo (Recepcion.getCodigo()=="AMA");
+	 recepcion: Recepcion(codigo.getDescripcion()=="AMA");
+	 //codigo : Codigo (Recepcion.getCodigo()=="AMA");
 	 then
 	 System.out.println("Código rojo : Urgencia. No hay riesgo de vida inminente, pero el paciente debe ser atendido en un lapso razonable de tiempo.");
-	 Recepcion.setDespacho(new Despacho());	
+	 //recepcion.setDespacho(new Despacho());	Se asignan en la app, sino null pointer (acá o en la app)
 end
 
 //regla 3
 rule "Cambiar estado movil asignado"
  salience 5
  when 
- despacho: Despacho(); 
+ despacho: Despacho(movil!=null); 
  then
  despacho.getMovil().setEstado(new EstadoMovil("Asignado"));
 end
@@ -47,9 +47,10 @@ end
 rule "Cambiar estado movil a disponible"
 	salience 5
 	when 
-	despacho: Despacho(despacho.desenlace!="No registra")
+	despacho: Despacho(desenlace.getDesenlace()!="No registra" && movil!=null)
 	then
 	despacho.getMovil().setEstado(new EstadoMovil("Disponible"));
+	
 end
 
 //regla 6
