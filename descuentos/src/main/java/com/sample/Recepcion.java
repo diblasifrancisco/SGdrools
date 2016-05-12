@@ -1,7 +1,5 @@
 package com.sample;
 
-import java.util.Calendar;
-
 public class Recepcion {
 
 	Despacho despacho;

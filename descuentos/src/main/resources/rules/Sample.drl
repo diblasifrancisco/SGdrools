@@ -4,60 +4,58 @@ import com.sample.*;
  
 //reglas caso emergencia
 //regla 1
-rule "Mensaje codigo rojo y creación de despacho"
+rule "regla1: Mensaje codigo rojo y creación de despacho"
 	salience 15
 	when
 	  recepcion: Recepcion (codigo.getDescripcion()=="RJO");
-	 //codigo : Codigo (Recepcion.getCodigo()=="RJO");
 	 then
 	 System.out.println("Código rojo Emergencia con riesgo de vida inminente.");
-	 //recepcion.setDespacho(new Despacho()); Se asignan en la app, sino null pointer (acá o en la app)
+	 recepcion.setDespacho(new Despacho()); 
 end
 
 //regla 2
-rule "Mensaje codigo amarillo y creación de despacho"
+rule "regla2: Mensaje codigo amarillo y creación de despacho"
 	salience 10
 	when
 	 recepcion: Recepcion(codigo.getDescripcion()=="AMA");
-	 //codigo : Codigo (Recepcion.getCodigo()=="AMA");
 	 then
-	 System.out.println("Código rojo : Urgencia. No hay riesgo de vida inminente, pero el paciente debe ser atendido en un lapso razonable de tiempo.");
-	 //recepcion.setDespacho(new Despacho());	Se asignan en la app, sino null pointer (acá o en la app)
+	 System.out.println("Código Amarillo : Urgencia. No hay riesgo de vida inminente, pero el paciente debe ser atendido en un lapso razonable de tiempo.");
+	 recepcion.setDespacho(new Despacho());	
 end
 
 //regla 3
-rule "Cambiar estado movil asignado"
- salience 5
- when 
- despacho: Despacho(movil!=null); 
- then
- despacho.getMovil().setEstado(new EstadoMovil("Asignado"));
+rule "regla3: para despacho nuevo, cambiar estado del movil a asignado"
+	 salience 6
+	 when 
+	 despacho: Despacho(movil!=null , movil.getEstado().getEstado()=="Disponible"); 
+	 then
+	 despacho.getMovil().setEstado(new EstadoMovil("Asignado"));
 end
 
 //regla 4
-rule "Asignar desenlace a despacho nuevo"
- salience 5
- when 
- despacho: Despacho(); 
- then
- despacho.setDesenlace(new Desenlace(1, "No registra"));
+rule "regla4: Asignar desenlace a despacho nuevo"
+	 salience 5
+	 when 
+	 despacho: Despacho(desenlace==null); 
+	 then
+	 despacho.setDesenlace(new Desenlace(1, "No registra"));
 end
 
 //regla 5
-rule "Cambiar estado movil a disponible"
-	salience 5
+rule "regla5: Terminado el despacho, cambiar estado del movil a disponible"
+	salience 2
 	when 
-	despacho: Despacho(desenlace.getDesenlace()!="No registra" && movil!=null)
+	despacho: Despacho(desenlace!=null ,desenlace.getDesenlace()!="No registra" , movil.getEstado().getEstado()=="Asignado")
 	then
 	despacho.getMovil().setEstado(new EstadoMovil("Disponible"));
 	
 end
 
 //regla 6
-rule "Setear fecha y hora de recepción"
-	salience 5
+rule "regla6: Al crear una recepcion, se setean fecha y hora"
+	salience 3
 	when 
-	recepcion: Recepcion();
+	recepcion: Recepcion(getFecha_reg()==0 , getHora_reg()==0);
 	then
 	recepcion.setFecha_reg(java.util.Calendar.getInstance().DATE);
 	recepcion.setHora_reg(java.util.Calendar.getInstance().HOUR_OF_DAY);
